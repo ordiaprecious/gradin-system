@@ -1,0 +1,15 @@
+body{
+    height: 720px;
+    background-color: forestgreen;
+}
+#bigscreen{
+    height: 150px;
+    width: 40%;
+    
+}
+/* #info{
+    d
+} */
+#total{
+    cursor: pointer;
+}
