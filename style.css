@@ -1,15 +1,62 @@
 body{
     height: 720px;
-    background-color: forestgreen;
+    background-image: url(unseen-studio-s9CC2SKySJM-unsplash.jpg);
+    background-size: auto;
+    /* background-repeat: no-repeat; */
 }
 #bigscreen{
-    height: 150px;
     width: 40%;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: black;
+   
+}
+#screen{
+    width: 40%;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    font-weight: bolder;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: black;
+}
+#final input{
+    margin: 3px;
+    outline: none;
+    margin-left: 10px;
+    text-align: center;
+    /* border-width: 3px; */
+    width: 100px;
+    border-radius: 30px;
+ /* margin-bottom: 10px; */
     
+}
+#name{
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+
+}
+.yy{
+    width: 50px;
+}
+button{
+    background-color: green;
+    color: white;
 }
 /* #info{
     d
 } */
 #total{
     cursor: pointer;
+    color: chartreuse;
+}
+#sb{
+    background-color: green;
+    color: white;
 }

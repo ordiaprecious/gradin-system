@@ -9,13 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
+    <h3 class="title mt-4 text-center text-info">PRESH ESTADIO LA UNIVERSIDAD</h3>
     <strong id="total" class="text-center" style="width: fit-content;">
-    <div id="bigscreen" style="margin-top: 20px; height: 150px;" class="bg-primary position-relative top-0 start-50 translate-middle-x"></div>
-    <div class="mt-2" id="info">
+    <div id="screen" style="margin-top: 20px; height: 100px;" class="bg-light position-relative top-0 start-50 translate-middle-x"></div>
+    <!-- <div id="hair" class="bg-danger text-center">h bhj</div> -->
+    <div id="bigscreen" style="margin-top: -2px; height: 100px;" class="bg-light position-relative top-0 start-50 translate-middle-x"></div>
+    <div class="mt-2" id="inform">
         <p>STUDENT INFORMATION</p>
         
-        <h4>Name:</h4><input  type="text"><br>
-        <h4>Registration number:</h4> <input id="name" type="text"><br>
+        <h4>Name:</h4><input id="name"  type="text"><br>
         <h4>Session:</h4> <input class="border border-width-2" type="button" readonly value="2022/2023">
     
         <button onclick="first()">confirm candidate</button>
@@ -31,9 +33,11 @@
         <label>Arts:</label> <input id="arts" type="number">
 
     </div>
-    <input onclick="finish()" class="position-relative start-50" type="submit">
-    <button onclick="clear()" class="mt-4 position-relative start-50">reset</button><br><br>
-    <h6>Note: All courses are graded over 100 for every candidate</h6>
+    <input id="sb" onclick="finish()" class="position-relative start-50" type="submit">
+    <input type="reset" value="RESET" onclick="clear()" class="text-center yy position-relative start-50">
+    <br><br>
+    <h6 class="mt-1">Note: All courses are graded over 100 for every candidate</h6>
+    
     </strong>
     
     <script src="main.js"></script>
